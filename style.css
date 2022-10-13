@@ -20,7 +20,7 @@ body{
     width:100%;
 }
 .btn-map{
-    margin-top: -5em;
+    bottom: 2%!important;
     margin-left: 30%;
 }
 
