@@ -1,4 +1,92 @@
-.card {
+html{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #9c9c9c;
+}
+body{
+    width: 375px;
+    min-height: 812px;
+}
+#last-added .card, #best-photo .card, #category .card{
     min-width: 50%!important;
     max-width: 50%!important;
+}
+.map-responsive{
+    overflow:hidden;
+}
+.map-responsive iframe{
+    height:290px;
+    width:100%;
+}
+.btn-map{
+    margin-top: -5em;
+    margin-left: 30%;
+}
+
+#comments img{
+    width: 50px;
+    height: 50px;
+}
+
+.thumb-user-pic{
+    width: 30px;
+    height: 50px;
+}
+.thumb-user-pic img{
+    object-fit: cover;
+}
+#category a{
+    background-size: cover;
+}
+#category a div{
+    background-color: rgba(0,0,0,0.5);
+}
+#category a:first-of-type{
+    background-image: url(img/manor.jpg);
+}
+#category a:nth-of-type(2){
+    background-image: url(img/grand-hall.webp);
+}
+#category a:nth-of-type(3){
+    background-image: url(img/header.png);
+}
+#category a:nth-of-type(4){
+    background-image: url(img/user-image.jpg);
+}
+#listview a div:has(img){
+    width: 30vw;
+}
+#listview a div:has(img) img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#listview a div:nth-of-type(2){
+    width: 60vw;
+}
+#mapview{
+    height: 90vh;
+}
+.relativebar{
+    position: relative;
+    z-index: 10;
+}
+#mapview iframe {
+    position: absolute;
+    top: 0;
+    z-index: 0;
+    width: 375px;
+}
+#mapview .mapitem {
+    position: relative;
+    z-index: 1;
+    top: 75%;
+}
+#mapview .mapitem a{
+    min-width: 350px;
+    height: 20%;
+}
+#mapview .mapitem a div img{
+    width: 125px;
 }

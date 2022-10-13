@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Demo CSS</title>
+    <title>Urbex App</title>
   </head>
   <body>
     <header class="text-center bg-light py-3">
@@ -16,28 +16,36 @@
     <section id="last-added" class="container-fluid p-3">
       <h2 class="fs-5">Derniers ajouts de la communauté</h2>
       <div class="d-flex flex-row flex-nowrap overflow-auto">
-          <a class="card mb-3 me-1 text-decoration-none text-dark" href="manor.html">
-            <img src="img/manor.jpg" class="card-img-top">
+          <a class="card mb-3 me-1 text-decoration-none text-dark" href="fonderie.html">
+            <img src="img/grand-hall.webp" class="card-img-top">
             <div class="card-body">
-              <h3 class="fw-normal mt-3">Le manoir</h3>
+              <h3 class="fw-normal mt-3 h4">La Fonderie</h3>
               <p class="fw-lighter mb-0">Manoir</p>
               <p class="fw-light mb-0">38 Rue de Brest, 29000 Quimper</p>
             </div>
           </a>
-          <a class="card mb-3 me-1 text-decoration-none text-dark" href="manor.html">
+          <a class="card mb-3 me-1 text-decoration-none text-dark" href="fonderie.html">
             <img src="img/manor.jpg" class="card-img-top">
             <div class="card-body">
-              <h3 class="fw-normal mt-3">Le manoir</h3>
+              <h3 class="fw-normal mt-3 h4">Le manoir</h3>
               <p class="fw-lighter mb-0">Manoir</p>
               <p class="fw-light mb-0">38 Rue de Brest, 29000 Quimper</p>
             </div>
           </a>
-          <a class="card mb-3 me-1 text-decoration-none text-dark" href="manor.html">
+          <a class="card mb-3 me-1 text-decoration-none text-dark" href="fonderie.html">
             <img src="img/manor.jpg" class="card-img-top">
             <div class="card-body">
-              <h3 class="fw-normal mt-3">Le manoir</h3>
+              <h3 class="fw-normal mt-3 h4">Le manoir</h3>
               <p class="fw-lighter mb-0">Manoir</p>
               <p class="fw-light mb-0">38 Rue de Brest, 29000 Quimper</p>
+            </div>
+          </a>
+          <a class="card border-0 mb-3 me-1 text-decoration-none text-dark d-flex flex-column justify-content-center align-items-center" href="listView.html">
+            <div>
+              Voir plus
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+              </svg>
             </div>
           </a>
       </div>
@@ -46,19 +54,19 @@
       <h2 class="fs-5">Les plus belles photos</h2>
       <div class="d-flex flex-row flex-nowrap overflow-auto">
           <a class="card mb-3 me-1 text-decoration-none text-dark" href="#">
-            <img src="img/user-image.jpg" class="card-img-top">
+            <img src="img/user-pic.webp" class="card-img-top">
             <div class="card-body">
-              <p class="fw-lighter mb-0">Pseudonyme</p>
+              <p class="fw-lighter mb-0">Pierre</p>
             </div>
           </a>
           <a class="card mb-3 me-1 text-decoration-none text-dark" href="#">
             <img src="img/user-image.jpg" class="card-img-top">
             <div class="card-body">
-              <p class="fw-lighter mb-0">Pseudonyme</p>
+              <p class="fw-lighter mb-0">L'explorateur</p>
             </div>
           </a>
           <a class="card mb-3 me-1 text-decoration-none text-dark" href="#">
-            <img src="img/user-image.jpg" class="card-img-top">
+            <img src="img/user-photo.webp" class="card-img-top">
             <div class="card-body">
               <p class="fw-lighter mb-0">Pseudonyme</p>
             </div>
@@ -67,47 +75,71 @@
     </section>
     <section id="best-place" class="container-fluid p-3">
       <h2 class="fs-5">Les plus beaux endroits</h2>
-      <div class="d-flex flex-row flex-wrap overflow-auto">
-          <a class="card mb-1  text-decoration-none text-dark" href="#">
+      <div class="row row-cols-2 g-1">
+        <div>
+          <a class="card col text-decoration-none text-dark" href="fonderie.html">
             <img src="img/manor.jpg" class="card-img-top">
             <div class="card-body">
-              <h3 class="fw-normal mt-3">Le manoir</h3>
+              <h3 class="fw-normal h5 mt-3">Le manoir</h3>
             </div>
           </a>
-          <a class="card mb-1  text-decoration-none text-dark" href="#">
+        </div>
+        <div>
+          <a class="card col text-decoration-none text-dark" href="fonderie.html">
+            <img src="img/grand-hall-2.webp" class="card-img-top">
+            <div class="card-body">
+              <h3 class="fw-normal h5 mt-3">La fonderie</h3>
+            </div>
+          </a>
+        </div>
+        <div>
+          <a class="card col text-decoration-none text-dark" href="fonderie.html">
+            <img src="img/user-image.jpg" class="card-img-top">
+            <div class="card-body">
+              <h3 class="fw-normal h5 mt-3">L'usine</h3>
+            </div>
+          </a>
+        </div>
+        <div>
+          <a class="card col text-decoration-none text-dark" href="fonderie.html">
             <img src="img/manor.jpg" class="card-img-top">
             <div class="card-body">
-              <h3 class="fw-normal mt-3">Le manoir</h3>
+              <h3 class="fw-normal h5 mt-3">Le manoir</h3>
             </div>
           </a>
-          <a class="card mb-1  text-decoration-none text-dark" href="#">
-            <img src="img/manor.jpg" class="card-img-top">
-            <div class="card-body">
-              <h3 class="fw-normal mt-3">Le manoir</h3>
-            </div>
-          </a>
-          <a class="card mb-1  text-decoration-none text-dark" href="#">
-            <img src="img/manor.jpg" class="card-img-top">
-            <div class="card-body">
-              <h3 class="fw-normal mt-3">Le manoir</h3>
-            </div>
-          </a>
+        </div>
       </div>
     </section>
-    <section id="category" class="container-fluid mb-3">
-      <h2 class="fs-5">Catégories</h2>
-      <div class="d-flex flex-row flex-wrap overflow-auto">
-          <a class="card mb-1  text-decoration-none text-dark" href="#">
-            <img src="img/user-image.jpg" class="card-img-top">
+    <section id="category" class="container-fluid p-0">
+      <h2 class="fs-5 mb-3 px-3">Catégories</h2>
+      <div class="row row-cols-2 g-0">
+          <a class="card col text-decoration-none text-dark rounded-0" href="listView.html">
+            <!-- <img src="img/user-image.jpg" class="card-img-top rounded-0"> -->
+            <div class="mask text-light d-flex justify-content-center flex-column text-center pt-5 pb-5">
+              <h4>Manoirs</h4>
+              <p class="m-0">55 lieux</p>
+            </div>
           </a>
-          <a class="card mb-1  text-decoration-none text-dark" href="#">
-            <img src="img/manor.jpg" class="card-img-top">
+          <a class="card col text-decoration-none text-dark rounded-0" href="listView.html">
+            <!-- <img src="img/manor.jpg" class="card-img-top rounded-0"> -->
+            <div class="mask text-light d-flex justify-content-center flex-column text-center pt-5 pb-5">
+              <h4>Industriels</h4>
+              <p class="m-0">42 lieux</p>
+            </div>
           </a>
-          <a class="card mb-1  text-decoration-none text-dark" href="#">
-            <img src="img/manor.jpg" class="card-img-top">
+          <a class="card col text-decoration-none text-dark rounded-0" href="listView.html">
+            <!-- <img src="img/manor.jpg" class="card-img-top rounded-0"> -->
+            <div class="mask text-light d-flex justify-content-center flex-column text-center pt-5 pb-5">
+              <h4>Publics</h4>
+              <p class="m-0">12 lieux</p>
+            </div>
           </a>
-          <a class="card mb-1  text-decoration-none text-dark" href="#">
-            <img src="img/user-image.jpg" class="card-img-top">
+          <a class="card col text-decoration-none text-dark rounded-0" href="listView.html">
+            <!-- <img src="img/user-image.jpg" class="card-img-top rounded-0"> -->
+            <div class="text-light d-flex justify-content-center flex-column text-center pt-5 pb-5">
+              <h4>Historiques</h4>
+              <p class="m-0">24 lieux</p>
+            </div>
           </a>
       </div>
     </section>
