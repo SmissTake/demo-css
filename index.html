@@ -1,13 +1,117 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Demo CSS</title>
   </head>
   <body>
-    <div id="app"></div>
+    <header class="text-center bg-light py-3">
+      <a href="#" class="display-6 text-dark text-decoration-none">Urbex App</a>
+    </header>
+    <section id="banner">
+      <img src="img/header.png" alt="" class="img-fluid bg-dark">
+    </section>
+    <section id="last-added" class="container-fluid p-3">
+      <h2 class="fs-5">Derniers ajouts de la communauté</h2>
+      <div class="d-flex flex-row flex-nowrap overflow-auto">
+          <a class="card mb-3 me-1 text-decoration-none text-dark" href="manor.html">
+            <img src="img/manor.jpg" class="card-img-top">
+            <div class="card-body">
+              <h3 class="fw-normal mt-3">Le manoir</h3>
+              <p class="fw-lighter mb-0">Manoir</p>
+              <p class="fw-light mb-0">38 Rue de Brest, 29000 Quimper</p>
+            </div>
+          </a>
+          <a class="card mb-3 me-1 text-decoration-none text-dark" href="manor.html">
+            <img src="img/manor.jpg" class="card-img-top">
+            <div class="card-body">
+              <h3 class="fw-normal mt-3">Le manoir</h3>
+              <p class="fw-lighter mb-0">Manoir</p>
+              <p class="fw-light mb-0">38 Rue de Brest, 29000 Quimper</p>
+            </div>
+          </a>
+          <a class="card mb-3 me-1 text-decoration-none text-dark" href="manor.html">
+            <img src="img/manor.jpg" class="card-img-top">
+            <div class="card-body">
+              <h3 class="fw-normal mt-3">Le manoir</h3>
+              <p class="fw-lighter mb-0">Manoir</p>
+              <p class="fw-light mb-0">38 Rue de Brest, 29000 Quimper</p>
+            </div>
+          </a>
+      </div>
+    </section>
+    <section id="best-photo" class="container-fluid p-3">
+      <h2 class="fs-5">Les plus belles photos</h2>
+      <div class="d-flex flex-row flex-nowrap overflow-auto">
+          <a class="card mb-3 me-1 text-decoration-none text-dark" href="#">
+            <img src="img/user-image.jpg" class="card-img-top">
+            <div class="card-body">
+              <p class="fw-lighter mb-0">Pseudonyme</p>
+            </div>
+          </a>
+          <a class="card mb-3 me-1 text-decoration-none text-dark" href="#">
+            <img src="img/user-image.jpg" class="card-img-top">
+            <div class="card-body">
+              <p class="fw-lighter mb-0">Pseudonyme</p>
+            </div>
+          </a>
+          <a class="card mb-3 me-1 text-decoration-none text-dark" href="#">
+            <img src="img/user-image.jpg" class="card-img-top">
+            <div class="card-body">
+              <p class="fw-lighter mb-0">Pseudonyme</p>
+            </div>
+          </a>
+      </div>
+    </section>
+    <section id="best-place" class="container-fluid p-3">
+      <h2 class="fs-5">Les plus beaux endroits</h2>
+      <div class="d-flex flex-row flex-wrap overflow-auto">
+          <a class="card mb-1  text-decoration-none text-dark" href="#">
+            <img src="img/manor.jpg" class="card-img-top">
+            <div class="card-body">
+              <h3 class="fw-normal mt-3">Le manoir</h3>
+            </div>
+          </a>
+          <a class="card mb-1  text-decoration-none text-dark" href="#">
+            <img src="img/manor.jpg" class="card-img-top">
+            <div class="card-body">
+              <h3 class="fw-normal mt-3">Le manoir</h3>
+            </div>
+          </a>
+          <a class="card mb-1  text-decoration-none text-dark" href="#">
+            <img src="img/manor.jpg" class="card-img-top">
+            <div class="card-body">
+              <h3 class="fw-normal mt-3">Le manoir</h3>
+            </div>
+          </a>
+          <a class="card mb-1  text-decoration-none text-dark" href="#">
+            <img src="img/manor.jpg" class="card-img-top">
+            <div class="card-body">
+              <h3 class="fw-normal mt-3">Le manoir</h3>
+            </div>
+          </a>
+      </div>
+    </section>
+    <section id="category" class="container-fluid mb-3">
+      <h2 class="fs-5">Catégories</h2>
+      <div class="d-flex flex-row flex-wrap overflow-auto">
+          <a class="card mb-1  text-decoration-none text-dark" href="#">
+            <img src="img/user-image.jpg" class="card-img-top">
+          </a>
+          <a class="card mb-1  text-decoration-none text-dark" href="#">
+            <img src="img/manor.jpg" class="card-img-top">
+          </a>
+          <a class="card mb-1  text-decoration-none text-dark" href="#">
+            <img src="img/manor.jpg" class="card-img-top">
+          </a>
+          <a class="card mb-1  text-decoration-none text-dark" href="#">
+            <img src="img/user-image.jpg" class="card-img-top">
+          </a>
+      </div>
+    </section>
+
     <script type="module" src="/main.js"></script>
   </body>
 </html>

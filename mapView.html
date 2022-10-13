@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lieux - Liste</title>
+</head>
+<body>
+    <header class="relativebar text-center bg-light py-3 d-flex justify-content-around">
+        <a href="index.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="bi bi-arrow-left" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+          </svg></a>
+        <a href="#" class="display-6 text-dark text-decoration-none">Lieux</a>
+        <a href="listView.html">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="bi bi-list-ul" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm-3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+          </svg>
+        </a>
+      </header>
+<section id="mapview">
+  <iframe src="https://www.google.com/maps/d/embed?mid=15gUOV0SJ5rQ_3phaiPoqSqJdzBgLbMI&ehbc=2E312F" class="h-100"></iframe>
+
+  <div class="d-flex flex-row flex-nowrap overflow-auto mapitem my-3">
+    <a href="/fonderie.html" class="bg-light rounded text-decoration-none text-dark d-flex p-2 mx-3">
+      <div class="d-flex flex-column justify-content-center align-items-center">
+        <img src="/img/grand-hall.webp" alt="" class="img-fluid h-100">
+      </div>
+      <div class=" d-flex flex-column p-2">
+        <h2 class="h6">Fonderie abandonnée</h2>
+        <p class="fw-light mb-0 ">Industriels</p>
+        <p>5 Rue des Bouvreuils, 35530 Servon-sur-Vilaine</p>
+      </div>
+      <div class="d-flex flex-column justify-content-center align-items-center">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+        </svg>
+      </div>
+    </a>
+
+    <a href="/fonderie.html" class="bg-light rounded text-decoration-none text-dark d-flex p-2 me-3">
+      <div class="d-flex flex-column justify-content-center align-items-center">
+        <img src="/img/manor.jpg" alt="" class="img-fluid h-100">
+      </div>
+      <div class=" d-flex flex-column p-2">
+        <h2 class="h6">Manoir</h2>
+        <p class="fw-light mb-0 ">Manoirs</p>
+        <p>38 Rue de Brest, 29000 Quimper</p>
+      </div>
+      <div class="d-flex flex-column justify-content-center align-items-center">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+        </svg>
+      </div>
+    </a>
+  </div>
+  
+</section>
+    <script type="module" src="/main.js"></script>
+</body>
+</html>

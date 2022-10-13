@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonderie abandonnée</title>
+</head>
+<body>
+    <header class="text-center bg-light py-3 d-flex justify-content-around">
+        <a href="listView.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="bi bi-arrow-left" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+          </svg></a>
+        <a href="#" class="h5 text-dark text-decoration-none">Fonderie abandonnée</a>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-share-fill" viewBox="0 0 16 16">
+            <path d="M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5z"/>
+          </svg>
+      </header>
+      <section id="banner">
+        <div class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/grand-hall.webp" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/grand-hall-2.webp" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+      </section>
+      <section id="info" class="p-3">
+        <h2 class="fw-normal mt-3">Fonderie abandonnée</h2>
+        <p class="fw-lighter mb-0">Industriels</p>
+        <p class="fw-light mb-0">5 Rue des Bouvreuils, 35530 Servon-sur-Vilaine</p>
+        <p class="mt-3">
+          Après avoir résisté pendant les deux Guerres Mondiales, la fonderie passe en liquidation judiciaire en 1973 et
+           l’ensemble de ses 120 employés sont licenciés. Elle est rachetée, mais au bout de 15 ans, en 1988, elle ferme définitivement.
+           Depuis 10 ans, la fonderie appartient à L’Etat et est à l’abandon pour attendre sa dépollution (encore longtemps).
+        </p>
+      </section>
+      <section>
+        <!--Google map-->
+        <div class="container-fluid mb-5">
+          <div class="map-responsive">
+          <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&q=Ancienne+fonderie+Servon-sur-Vilaine" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+        <a href="https://www.google.com/maps/dir/48.054272,-1.7465344/Ancienne+fonderie,+5+Rue+des+Bouvreuils,+35530+Servon-sur-Vilaine,+France/@48.0948779,-1.6732541,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x480ed7771bd810c9:0xb4e540c0fe51eb8d!2m2!1d-1.4603066!2d48.1112942?hl=fr-FR" type="button" class="btn btn-dark btn-lg btn-block btn-map">C'est parti !</a>
+      </div>
+        <!--Google Maps-->
+      </section>
+      <section id="comments">
+        <h3 class="h5 text-center">Commentaire</h3>
+        <div class="d-flex m-3">
+          <img src="/img/user.jpg" alt="" class="rounded-circle img-thumbnail img-fluid me-3">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Ajoutez un commentaire..." aria-label="Ajoutez un commentaire..." aria-describedby="button-addon2">
+            <button class="btn btn-outline-secondary" type="button" id="button-addon2">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send-fill" viewBox="0 0 16 16">
+                <path d="M15.964.686a.5.5 0 0 0-.65-.65L.767 5.855H.766l-.452.18a.5.5 0 0 0-.082.887l.41.26.001.002 4.995 3.178 3.178 4.995.002.002.26.41a.5.5 0 0 0 .886-.083l6-15Zm-1.833 1.89L6.637 10.07l-.215-.338a.5.5 0 0 0-.154-.154l-.338-.215 7.494-7.494 1.178-.471-.47 1.178Z"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div class="d-flex m-3">
+          <img src="/img/user.jpg" alt="" class="rounded-circle img-thumbnail img-fluid me-3">
+          <div>
+            <p class="fw-bold mb-0">Pierre</p>
+            <p>
+              On était comme des enfants, on a visité la majorité des pièces : ça sentait pas mal la ferraille.
+               En plus, le combo ferraille rouillée, plante et graph était très cool. Mieux que des mots,
+                voici quelques photos de notre virée.
+            </p>
+            <div class="d-flex">
+              <!-- Button trigger modal -->
+              <div class="thumb-user-pic me-4">
+                <img src="/img/user-photo.webp" alt="" data-bs-toggle="modal" data-bs-target="#pic1">
+              </div>
+              <!-- Modal -->
+              <div class="modal fade" id="pic1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <img src="/img/user-photo.webp" alt="" class="img-fluid h-100 w-100">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="thumb-user-pic">
+                <img src="/img/user-pic.webp" alt="" data-bs-toggle="modal" data-bs-target="#pic2">
+              </div>
+              
+              <!-- Modal -->
+              <div class="modal fade" id="pic2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <img src="/img/user-pic.webp" alt="" class="img-fluid h-100 w-100">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="d-flex m-3">
+          <img src="/img/user.jpg" alt="" class="rounded-circle img-thumbnail img-fluid me-3">
+          <div>
+            <p class="fw-bold mb-0">L'explorateur</p>
+            <p>
+              Première impression, on arrive au coeur de la fonderie, c’est énorme.
+               Il ne reste plus que la structure de l’usine. La nature a commencé 
+               à s’installer là où il y a 20 ans des employés confectionnaient encore du savon.
+            </p>
+          </div>
+        </div>
+      </section>
+    <script type="module" src="/main.js"></script>
+</body>
+</html>
